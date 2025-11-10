@@ -1,0 +1,35 @@
+BVA is a black-box testing technique that focuses on testing boundaries of input values. It's based on the idea that errors often occur at boundaries.
+
+-
+    1.Errors often happen at boundaries (e.g., min, max, edge cases)
+    2.Efficiently tests critical areas
+     BVA works
+    1. Identify input boundaries (min, max, invalid values)
+    2. Test values at boundaries (min, max, just below/above)
+    3. Test invalid values (e.g., below min, above max)
+
+ex: password field (8-20 characters)
+- BVA test cases:
+       7 Characters (invalid)
+       8 characters (valid)
+      20 characters (valid)
+       21 characters (invalid)
+
+Equivalence Partitioning (EP)
+
+EP is a black-box technique that divides input data into partitions based on expected behavior.
+
+    1. Reduces test cases while maintaining coverage
+    2. Tests representative values from each partition
+    3. Identify input partitions (valid, invalid, edge cases)
+    4. Test one representative value from each partition
+ex : age field (18-100 years)
+ EP partitions:
+    -valid (18-100)
+    -invalid (<18)
+    -invalid (>100)
+ EP test cases:
+     25 (valid)
+     17 (invalid)
+    101 (invalid)
+
