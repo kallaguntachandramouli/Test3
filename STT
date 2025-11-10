@@ -1,0 +1,39 @@
+State Transition Testing
+
+State Transition Testing is a black-box testing technique that checks how a system behaves as it transitions between different states in response to events or inputs.
+
+Key Elements:
+
+ States: The different statuses or modes a system can be in (e.g., logged in, logged out, editing, saved).
+Transitions: The changes from one state to another triggered by events or inputs.
+ Events: Inputs or actions that trigger state transitions (e.g., clicking a button, entering data).
+ Actions: Outcomes or behaviors when a transition occurs.
+
+State Diagram Example: Login System
+
+
+          
+          |  Initial    |
+          
+                  |
+                  | Login Attempt
+                  v
+               Invalid      
+          |  Authenticating | ----------------> | Authentication|
+              Credentials    |     Failed    |
+                  |                           
+                  | Valid
+                  v
+                Logout 
+
+          |   Logged In    | <---------------- |  Logged Out  |
+                          
+                  | Logout
+                  v
+          
+          |  Logged Out   |
+          
+
+
+
+Want examples or explanations on applying this technique to a specific scenario?
