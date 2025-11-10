@@ -1,0 +1,31 @@
+Software Requirement Types
+
+Software requirements are the foundation of any software development project.  at the software should do.    
+1. Functional Requirements 
+     what the software should do
+    Specify the functionality, features, and behaviors of the system
+   
+2. Non-Functional Requirements 
+     how the software should behave
+     Specify quality attributes, constraints, and performance expectations
+    
+3. User Requirements
+      the needs and expectations of the users
+    Specify the tasks users want to accomplish with the software
+    
+4. System Requirements
+     overall system architecture and components
+    Specify hardware, software, and infrastructure requirements
+   
+5. Business Requirements
+     the business goals and objectives
+    Specify the business rules, processes, and regulations
+
+6. Technical Requirements 
+     the technical constraints and specifications
+     programming languages, frameworks, and tools
+   
+7. Interface Requirements
+  the interactions between systems or components
+    Specify APIs, data formats, and communication protocols
+    
