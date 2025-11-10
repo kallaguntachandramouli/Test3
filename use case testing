@@ -1,0 +1,20 @@
+Use Case Testing:
+Use Case Testing is a black-box testing technique that focuses on testing a system's functionality based on its use cases.
+1. Identify use cases based on system requirements and user interactions.
+2. Define test scenarios for each use case.
+3. Test each scenario to ensure the system behaves as expected.
+
+ex:
+1. Use Case: Online Shopping
+    Actor: Customer
+     Goal: Purchase a product
+     Preconditions: Customer is logged in, product is available
+      Postconditions: Order is placed, payment is processed
+     Flow:
+        1. Customer searches for product
+        2. Customer adds product to cart
+        3. Customer checks out
+        4. Customer enters payment details
+        5. Order is confirmed
+
+
